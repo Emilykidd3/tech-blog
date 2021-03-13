@@ -15,6 +15,7 @@ router.post("/", withAuth, (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
+    res.render('new-post');
 });
 
 //update a posts title(PUT)
@@ -22,6 +23,7 @@ router.put("/:id", withAuth, (req, res) => {
   Post.update(
     {
       title: req.body.title,
+      post_text: req.body.postText
     },
     {
       where: {
