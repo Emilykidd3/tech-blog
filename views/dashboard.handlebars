@@ -3,7 +3,7 @@
 <section>
     <h2>Your Posts</h2>
 
-    <ol>
+    <ul>
         {{#each posts as |post|}}
         <li>
             {{> post-info post}}
@@ -11,6 +11,6 @@
             </br>
         </li>
         {{/each}}
-    </ol>
+    </ul>
 </section>
 {{/if}}

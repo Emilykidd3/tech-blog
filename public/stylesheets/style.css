@@ -16,6 +16,8 @@
     font-weight: bold;
     transition: color .1s;
   }
+
+
   
   a:hover {
     color: #3486eb;
@@ -75,7 +77,8 @@
   }
   
   header {
-    border-bottom: 1px solid #ccc;
+    background-color: #225ca3;
+    border-bottom: 1px solid rgb(111, 111, 111);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -170,4 +173,13 @@
 
   li {
     margin-bottom: 2%;
+    list-style-type: none;
+  }
+
+  .white-text {
+    color: #ffffff;
+  }
+
+  .post-title {
+    font-size: 1.3em;
   }

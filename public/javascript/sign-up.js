@@ -1,5 +1,3 @@
-import setUpTimers from "./auto-logout.js";
-
 async function signupFormHandler(event) {
     event.preventDefault();
 

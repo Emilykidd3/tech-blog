@@ -10,15 +10,15 @@
     <div class="wrapper">
         <header>
             <h1>
-                <a href="/">Tech Blog</a>
+                <a href="/" class="white-text">Tech Blog</a>
             </h1>
             <nav>
-                <a href="/">Home</a>
+                <a href="/" class="white-text">Home</a>
                 {{#if loggedIn}}
-                <a href="/dashboard" class="btn-no-style">Dashboard</a>
-                <button id="logout" class="btn-no-style">Logout</button>
+                <a href="/dashboard" class="btn-no-style white-text">Dashboard</a>
+                <button id="logout" class="btn-no-style white-text">Logout</button>
                 {{else}}
-                <a href="/login">Login</a>
+                <a href="/login" class="white-text">Login</a>
                 {{/if}}
             </nav>
         </header>
