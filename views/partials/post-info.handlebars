@@ -1,11 +1,14 @@
 <article class="post">
     <div class="title">
         <a href="/dashboard/edit/{{id}}" class="post-title">{{title}}</a>
+        {{!-- if user.username ===  --}}
+        <span>by {{user.username}}</span>
         <div>
             <span>{{format_url post_text}}</span>
         </div>
     </div>
     <div class="meta">
         <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+        <span>Created on {{format_date created_at}}</span>
     </div>
 </article>
