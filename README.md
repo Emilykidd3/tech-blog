@@ -13,7 +13,14 @@ A heroku deployed web tech blog that allows you to create a username and passwor
 * Mysql2
 
 ## Website
-https://emilykidd3.github.io/code-quiz/
+[Click here](https://powerful-taiga-46589.herokuapp.com/dashboard)
 
 ## Screenshot
 <img src="./public/assets/tech-blog.png" width="50%" heigh="50%">
+
+### Contribution
+Made by Emily Kidd
+
+### Contact
+[GitHub](github.com/emilykidd3)  
+[Email](mailto:e.kidd61@yahoo.com)
