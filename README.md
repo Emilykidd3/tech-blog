@@ -13,7 +13,7 @@ A heroku deployed web tech blog that allows you to create a username and passwor
 * Mysql2
 
 ## Website
-[Click here](https://powerful-taiga-46589.herokuapp.com/dashboard)
+[Click here](https://powerful-taiga-46589.herokuapp.com)
 
 ## Screenshot
 <img src="./public/assets/tech-blog.png" width="50%" heigh="50%">
