@@ -32,7 +32,11 @@ router.get('/', withAuth, (req, res) => {
     })
         .then(dbPostData => {
             //serialize data before passing to template
-            const posts = dbPostData.map(post => post.get({ plain: true }));
+            const posts = dbPostData.map(post => {
+                console.log({post});
+                console.log("hello")
+                post.get({ plain: true })
+            });
             res.render('dashboard', { posts, loggedIn: true });
         })
         .catch(err => {
